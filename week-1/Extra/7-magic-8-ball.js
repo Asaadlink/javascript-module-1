@@ -1,40 +1,32 @@
 /**
-
 Let's peer into the future using a Magic 8 Ball!
 https://en.wikipedia.org/wiki/Magic_8-Ball 
-
 There are a few steps to being able view the future though:
 * Ask a question
 * Shake the ball
 * Get an answer
 * Decide if it's positive or negative
-
 The question can be anything, but the answers are fixed,
 and have different levels of positivity or negativity.
-
 Below are the possible answers:
-
-## Very positive
+## Very positive
 It is certain.
 It is decidedly so.
 Without a doubt.
 Yes - definitely.
 You may rely on it.
-
 ## Positive
 As I see it, yes.
 Most likely.
 Outlook good.
 Yes.
 Signs point to yes.
-
 ## Negative
 Reply hazy, try again.
 Ask again later.
 Better not tell you now.
 Cannot predict now.
 Concentrate and ask again.
-
 ## Very negative
 Don't count on it.
 My reply is no.
@@ -59,7 +51,6 @@ function checkAnswer(answer) {
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.
-
 To run these tests type `node 3-magic-8-ball.js` into your terminal
 */
 

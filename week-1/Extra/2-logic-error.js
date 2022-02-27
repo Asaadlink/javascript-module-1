@@ -5,17 +5,16 @@ function trimWord(word) {
 }
 
 function getWordLength(word) {
-  return word.length()
+  return word.length;
 }
 
 function multiply(a, b, c) {
-  a * b * c;
-  return;
+  return a * b * c;
+ 
 }
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.
-
 To run these tests type `node 2-logic-error` into your terminal
 */
 

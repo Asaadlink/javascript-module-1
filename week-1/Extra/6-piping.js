@@ -5,7 +5,6 @@
   - one that adds 2 numbers together
   - one that multiplies 2 numbers together
   - one that formats a number so it's returned as a string with a £ sign before it (e.g. 20 -> £20)
-
   2. Using the variable startingValue as input, perform the following operations using your functions all
   on one line (assign the result to the variable badCode):
   - add 10 to startingValue
@@ -39,7 +38,6 @@ let goodCode =
 
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.
-
 To run these tests type `node 2-piping.js` into your terminal
 */
 
