@@ -4,10 +4,14 @@
   Write a function that checks if a student has passed
   - if the grade is less than 50 then return "failed"
   - if 50 or higher then return "passed"
-
 */
 
 function studentPassed(grade) {
+  if (grade < 50) {
+    return "failed";
+  } else if (grade >= 50) {
+    return "passed";
+  }
 
 }
 
