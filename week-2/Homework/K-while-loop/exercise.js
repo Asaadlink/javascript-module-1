@@ -6,7 +6,7 @@
 
 function sumTillNum(num) {
     if (num < 0) {
-        throw Error("Hey, you're supposed to pass in a positive number!")
+        throw Error("pass in a positive number!")
     }
 
     let i = num
@@ -23,5 +23,5 @@ let n = 10;
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
 
 if (sumTillNum(n) === (n * (n+1) / 2)) {
-    console.log("You save")
+    console.log("COOL")
 }
