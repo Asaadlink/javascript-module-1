@@ -4,24 +4,19 @@
 - You should use a while loop
 */
 
-function sumTillNum(num) {
-    if (num < 0) {
-        throw Error("pass in a positive number!")
-    }
-
-    let i = num
-    let sumResult = 0
-    while (i > 0) {
-        sumResult = sumResult + i;
-        i = i - 1;
-    } 
-    return sumResult;
-}
-
 let n = 10;
 
-console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
-
-if (sumTillNum(n) === (n * (n+1) / 2)) {
-    console.log("COOL")
+function sumTillNum(num){
+	let i=0;
+	let total=0;
+		
+	
+	//your code here
+	while(i<=num){
+	   total+=i;
+	   i++;
+	}
+	return total;
 }
+
+console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
